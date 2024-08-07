@@ -79,9 +79,10 @@
     
     body header{
         background-color: #52658C;
-        width: 100%;
+        width: 102%;
         height: 80px;
         justify-content: center;
+        margin: -1% 0% 0% -1%; 
     }
     body header div.desktop{
         display: flex;
@@ -104,7 +105,8 @@
     }
     
     body main section{
-        width: 100%;
+        width: 102%;
+        margin: 0% -1%;
     }
 
     body main section div{
@@ -150,6 +152,8 @@
         }
     
     body main section#missao {
+        width: 100%;
+        margin: 0% auto;
         background-color: white;
     }
         body main section#missao div img{
@@ -158,10 +162,14 @@
         body main section#missao div div#missaoTexto{
             width: 60vh;
         }
-    body main section#valores div ul.containerUl{
+    body main section#valores div h2{
+        width:72%;
+        margin: 2% auto;
+    }
+    body main section div ul.containerUl{
         width: 100%;
     }     
-    body main section#valores div ul li.quadro{
+    body main section div ul li.quadro{
         display: flex;
         background-color: white;
         text-decoration: none;
@@ -169,24 +177,59 @@
         width:80%;
         margin: 2% auto;
     }
-    body main section#valores div ul li.quadro img.iconeQuadro{
+    body main section div ul li img.iconeQuadro{
         height: 15vh;
         padding: 1%;
     }
-    .quadro{
-        display: flex;
-        
-    }
+     
     .containerIma{
         display: flex;
         width: 100%;
     }
-    body main img#HomemContrato{
-        height: 410px;  
+
+    .cinza{
+        background-color: gray;
+    }
+    .quadro2{
+        display: flex;
+        background-color: #d9f0d9;
+        text-decoration: none;
+        flex-direction: column;
+        width:80%;
+        margin: 2% auto;
     }
 
-
+    body main section#servicos{
+        background-color: white;
+        width: 100%;
+        margin: 0% auto;
+    }
     
+    body main section#servicos div ul li.quadroServico{
+        text-decoration: none;
+        background-color: lightgray;
+        display: flex;
+        width: 30%;
+        border: 1px black solid;
+        border-radius: 5%;
+    }
+
+    body main section#escolha div div.imagemp{
+        height: 40vh;
+        padding: auto;
+        margin: 0 auto;
+    }
+    body main section#escolha div div.imagemp img{
+        height: 100%;
+    }
+    body main section#servicos div ul li.quadroServico img{
+        height: 10vh;
+        padding: 2%;
+    }
+    body main section#servicos div ul li.quadroServico .textoServico{
+        
+        padding: 3%;
+    }
     body main h1{
         font-family: GOTHAM,sans-serif;
         font-size: 2rem;
@@ -197,10 +240,20 @@
         font-size: 1.5rem;
         color:#52658C
     }
-    body main  p,li{
+    body main p,li,label{
         font-family: GOTHAM_MEDIUM,sans-serif;
         font-size: 1rem;
         color:#52658C;
+    }
+    body main section#form{
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    body main div#form{
+        width: 60%;
+        margin: 0 auto;
     }
     body main div#form input,textarea{
         width: 100%;
