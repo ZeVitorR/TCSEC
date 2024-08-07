@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCSEC</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header >
+        <div class="desktop">
+            <img class='logo' src="imagens/Logo TCSEC.png" alt="Imagem contendo a logo da TCSEC">
+            <img class='texto' src="imagens/Texto Header.png" alt="Imagem contendo a logo da TCSEC">
+        </div>
+        <div class="mobile">
+            <img class='logoMobile' src="imagens/Texto Header_mobile.png" alt="Imagem contendo a logo da TCSEC">
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>TCSEC - Gestão de Contratos de Venda de Lotes de Terra</h1>
+            <p>Na TCSEC, somos especialistas em transformar seus sonhos em realidade. Nos dedicamos ao gerenciamento eficiente e transparente de contratos de venda de loteamento, proporcionando a nossos clientes a confiança e a segurança necessárias para investir com tranquilidade.</p>
+            <h2>Nossa Missão</h2>
+            <p>Nossa missão é oferecer um serviço de excelência em gestão de contratos, garantindo que cada transação seja conduzida com integridade, clareza e profissionalismo. Acreditamos que um bom negócio começa com uma boa parceria, e por isso, estamos comprometidos em construir relações de confiança com nossos clientes e parceiros.</p>
+        </section>
+        <section>
+            <h2>Nossos Valores</h2>
+            <ul>
+                <li><span class="bold">Transparência: </span>Mantemos nossos processos claros e acessíveis para todos os envolvidos, assegurando que cada etapa da transação seja compreendida e acordada.</li>
+                <li><span class="bold">Integridade: </span>Agimos com honestidade e ética, priorizando sempre o melhor interesse de nossos clientes.</li>
+                <li><span class="bold">Excelência: </span>Buscamos continuamente a melhoria de nossos serviços, investindo em tecnologia e capacitação para oferecer o melhor suporte em gestão de contratos.</li>
+                <li><span class="bold">Comprometimento: </span>Estamos ao lado de nossos clientes em cada passo do processo, oferecendo suporte personalizado e soluções adequadas às suas necessidades.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Nossos Serviços</h2>
+            <p>Na TCSEC, oferecemos uma gama completa de serviços de gestão de contratos, incluindo:</p>
+            <ul>
+                <li><span class="bold">Elaboração e Revisão de Contratos: </span>Criamos e revisamos contratos de venda de loteamento, garantindo que todas as cláusulas estejam de acordo com as legislações vigentes e protejam os interesses das partes envolvidas.</li>
+                <li><span class="bold">Acompanhamento de Processos: </span>Monitoramos cada etapa da transação, desde a negociação inicial até o fechamento do contrato, assegurando que tudo ocorra conforme planejado.</li>
+                <li><span class="bold">Consultoria Jurídica: </span>Oferecemos suporte jurídico especializado para esclarecer dúvidas e resolver qualquer questão que possa surgir durante o processo de venda.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Por Que Escolher a TCSEC?</h2>
+            <p>Ao escolher a TCSEC, você opta por uma empresa comprometida com a sua satisfação e o sucesso de seus investimentos. Nossa equipe de profissionais experientes está pronta para oferecer o suporte necessário para que suas transações imobiliárias sejam realizadas com segurança e tranquilidade.</p>
+        </section>
+
+        <!-- <section>
+            <img id="HomemContrato" src="imagens/Homem Contrato.png" alt="Homem segurando uma prancheta com um contrato">
+
+            <div id="form">
+                <form  id="formMensagem" action="" method="POST" enctype="text/plain">
+                    <h1>Entre em contato conosco:</h1>
+                    
+                    <label for="Nome">Nome:</label><br>
+                    <input type="text" id="Nome" name="Nome" ><br><br>
+                    <label for="Email">E-mail:</label><br>
+                    <input type="email" id="Email" name="E-mail" ><br><br>
+                    <label for="Assunto">Assunto:</label><br>
+                    <input type="text" id="Assunto" name="Assunto" ><br><br>
+                    <label for="Mensagem">Mensagem:</label><br>
+                    <textarea id="Mensagem" name="Mensagem" rows="3" ></textarea><br><br>
+
+                    <button id="botaoclick" type="submit" onclick="defineAction()">Enviar</button><br><br>
+                </form>
+            </div>
+        </section> -->
+    </main>
+    <footer>
+        <div class="desktop">
+            <img class="txtFooter" src="imagens/Texto footer.png" alt="Texto contendo o endereço da empresa: Rua almirante Protogene, 289 - 12°Andar - Sala 122, Bairro Jardim - Santo André-SP - CEP: 09090760 Telefone: (19) 98935-7705">
+        </div>
+        <div class="mobile">
+            <img class="MOBILETXT" src="imagens/Texto footer_mobile.png" alt="Texto contendo o endereço da empresa: Rua almirante Protogene, 289 - 12°Andar - Sala 122, Bairro Jardim - Santo André-SP - CEP: 09090760 Telefone: (19) 98935-7705">
+        </div>
+    </footer>
+    <script>
+        function defineAction() {
+            assunto = '?subject='+document.getElementById("Assunto").value;
+            envia = 'mailto:comercial@tcsec.com.br'+assunto;
+            document.getElementById("formMensagem").setAttribute("action",envia);
+        }
+    </script>
+</body>
+</html>

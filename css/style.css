@@ -1,0 +1,249 @@
+@font-face{
+    font-family: GOTHAM;
+    src: url(fontes/GOTHAM-MEDIUM.TTF)
+}
+
+@font-face{
+    font-family: GOTHAM_MEDIUM;
+    src: url(fontes/GOTHAM-MEDIUM.TTF)
+}
+
+@media screen and (max-width: 900px) {
+    .mobile,.MOBILETXT{
+        display: block;
+    }
+    body header{
+        background-color: #52658C;
+        width: 60%;
+        text-align: center;
+        padding: 4% 20% 2% 20%;
+    }
+    .logoMobile{
+        width: 90%;
+    }
+    .desktop{
+        display: none;
+    }
+    main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    body main div#form{
+        padding-left: 2%;
+    }
+    body main div#form h1{
+        font-family: GOTHAM,sans-serif;
+        font-size: 2rem;
+        color:#52658C
+    }
+    body main div#form label{
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 1rem;
+        color:#52658C;
+    }
+    body main div#form input,textarea{
+        width: 90%;
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 1rem;
+        color:#52658C;
+        border: 1px solid lightgray;
+    }
+    
+    body main div#form button{
+        background-color: #52658C;
+        color: white;
+        width: 100px;
+        height: 30px;
+    }
+    body main img#HomemContrato{
+        display: none;
+    }
+    .MOBILETXT{
+        width: 102%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 901px) and (max-width: 1400px){
+    .mobile{
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    body header{
+        background-color: #52658C;
+        width: 100%;
+        height: 100px;
+        justify-content: center;
+    }
+    body header div.desktop{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    body header div.desktop img.logo{
+        padding: 0.8%;
+        height: 80px;
+    }
+    
+    body header div.desktop img.texto{
+        height: 80px;
+        margin: auto 0;
+    }
+    body main{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    section{
+        width: 80%;
+        text-align: justify;
+        margin: 0 auto;
+    }
+    body main img#HomemContrato{
+        height: 410px;  
+    }
+    
+    
+    body main h1{
+        font-family: GOTHAM,sans-serif;
+        font-size: 2rem;
+        color:#52658C
+    }
+    body main h2{
+        font-family: GOTHAM,sans-serif;
+        font-size: 1.5rem;
+        color:#52658C
+    }
+    body main  p,li{
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 1rem;
+        color:#52658C;
+    }
+    body main div#form input,textarea{
+        width: 100%;
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 1rem;
+        color:#52658C;
+        border: 1px solid lightgray;
+    }
+    
+    body main div#form button{
+        background-color: #52658C;
+        color: white;
+        width: 100px;
+        height: 30px;
+    }
+    
+    body main div#form button:hover{
+        width: 120px;
+        height: 35px;
+        background-color: #7d95c4;
+        cursor: pointer;
+    }
+    
+    body footer div.desktop{
+        background-color: #D2E28B;
+        display: flex;
+        justify-content: flex-end;
+    }
+    body footer img.txtFooter{
+        width: 45%;
+        padding: 1% 2%;
+    }
+}
+
+@media screen and (min-width: 1401px){
+    .mobile{
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    body header{
+        background-color: #52658C;
+        width: 100%;
+        height: 130px;
+    }
+    body header div.desktop{
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    body header div.desktop img.logo{
+        height: 100px;
+        padding-top: 15px;
+    }
+    
+    body header div.desktop img.texto{
+        height: 100px;
+    }
+    body main{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    body main img#HomemContrato{
+        height: 750px;
+    }
+    
+    
+    body main div#form h1{
+        font-family: GOTHAM,sans-serif;
+        font-size: 3rem;
+        color:#52658C
+    }
+    body main div#form label{
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 2rem;
+        color:#52658C;
+    }
+    body main div#form input,textarea{
+        width: 100%;
+        font-family: GOTHAM_MEDIUM,sans-serif;
+        font-size: 1.5rem;
+        border: 1px solid lightgray;
+    }
+    
+    body main div#form button{
+        background-color: #52658C;
+        color: white;
+        width: 100px;
+        height: 30px;
+    }
+    
+    body main div#form button:hover{
+        width: 120px;
+        height: 35px;
+        background-color: #7d95c4;
+        cursor: pointer;
+    }
+    body footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    body footer div.desktop{
+        background-color: #D2E28B;
+        display: flex;
+        justify-content: flex-end;
+    }
+    body footer img.txtFooter{
+        width: 35%;
+        padding: 1% 2%;
+    }
+}
+
+.bold{
+    font-weight: bolder;
+}
