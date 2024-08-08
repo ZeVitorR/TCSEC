@@ -17,3 +17,20 @@ body main section div ul li img.iconeQuadro{
     height: 15vh;
     padding: 1%;
 }
+body main section div ul li .textoV{
+    padding-right: 3%;
+}
+@media screen and (max-width:900px) {
+    body main section#valores div h2{
+        width:90%;
+        margin: 2% auto;
+    }
+    body main section div ul li.quadro{
+        display: flex;
+        background-color: white;
+        text-decoration: none;
+        flex-direction: column;
+        width:100%;
+        margin: 2% auto;
+    }
+}

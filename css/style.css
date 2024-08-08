@@ -80,22 +80,12 @@ body header div.desktop h1{
 }
 
  
-.containerIma{
-    display: flex;
-    width: 100%;
-}
+
 
 .cinza{
     background-color: gray;
 }
-.quadro2{
-    display: flex;
-    background-color: #d9f0d9;
-    text-decoration: none;
-    flex-direction: column;
-    width:80%;
-    margin: 2% auto;
-}
+
 
 
 body h1{
@@ -155,6 +145,7 @@ body footer{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 0% 5%;
         height: 20vh;
     }
 
