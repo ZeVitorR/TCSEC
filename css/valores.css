@@ -1,0 +1,19 @@
+body main section#valores div h2{
+    width:72%;
+    margin: 2% auto;
+}
+body main section div ul.containerUl{
+    width: 100%;
+}     
+body main section div ul li.quadro{
+    display: flex;
+    background-color: white;
+    text-decoration: none;
+    flex-direction: column;
+    width:80%;
+    margin: 2% auto;
+}
+body main section div ul li img.iconeQuadro{
+    height: 15vh;
+    padding: 1%;
+}

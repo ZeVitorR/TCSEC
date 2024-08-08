@@ -1,0 +1,14 @@
+body main section#sobre div#imagem{
+    width: 40%;
+    height:30vh;
+}
+    body main section#sobre div#imagem img{
+        height: 100%;
+        border-radius: 45%;
+    }
+
+body main section#sobre div#texto{
+    margin: auto;
+    width: 40%;
+    height: 100%;
+}

@@ -1,0 +1,11 @@
+body main section#missao {
+    width: 100%;
+    margin: 0% auto;
+    background-color: white;
+}
+    body main section#missao div img{
+        height: 40vh;
+    }
+    body main section#missao div div#missaoTexto{
+        width: 60vh;
+    }

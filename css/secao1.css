@@ -1,0 +1,14 @@
+body main section#secao1{
+    background-image: url(../imagens/contrato.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+
+}
+body main section#secao1 div{
+    height: 120px;
+}
+
+body main section#secao1 div h1, body main section#secao1 div h2{
+    text-align: center;
+    color: white;
+}

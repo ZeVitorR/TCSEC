@@ -1,0 +1,31 @@
+body main section#form{
+    width: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+body main div#form{
+    width: 60%;
+    margin: 0 auto;
+}
+body main div#form input,textarea{
+    width: 100%;
+    font-family: GOTHAM_MEDIUM,sans-serif;
+    font-size: 1rem;
+    color:#52658C;
+    border: 1px solid lightgray;
+}
+
+body main div#form button{
+    background-color: #52658C;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
+body main div#form button:hover{
+    width: 120px;
+    height: 35px;
+    background-color: #7d95c4;
+    cursor: pointer;
+}

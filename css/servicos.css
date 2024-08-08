@@ -1,0 +1,18 @@
+body main section#servicos{
+    background-color: white;
+    width: 100%;
+    margin: 0% auto;
+}
+
+body main section#servicos div ul li.quadroServico{
+    text-decoration: none;
+    background-color: lightgray;
+    display: flex;
+    width: 30%;
+    border: 1px black solid;
+    border-radius: 5%;
+}
+body main section#servicos div ul li.quadroServico .textoServico{
+        
+    padding: 3%;
+}
