@@ -1,13 +1,21 @@
 body main section#form{
     width: 100%;
-    background-color: white;
     margin: 0 auto;
 }
 
 body main div#form{
-    width: 60%;
+    width: 70%;
+    background-color: white;
     margin: 0 auto;
 }
+
+body main div#form form{
+    padding: 1.5%;
+    width: 90%;
+    background-color: white;
+    margin: 3% auto;
+}
+
 body main div#form input,textarea{
     width: 100%;
     font-family: GOTHAM_MEDIUM,sans-serif;

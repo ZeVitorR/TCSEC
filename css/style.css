@@ -182,18 +182,19 @@ p,li,label{
     font-size: 1rem;
     color:#52658C;
 }
+body footer{
+    background-color: #dde7b0;
+    width: 102%;
+    margin: 0 0% -1% -1%;
+}
 
-body footer div.desktop{
-    background-color: #D2E28B;
-    display: flex;
-    justify-content: flex-end;
-}
-body footer img.txtFooter{
-    width: 45%;
-    padding: 1% 2%;
-}
 #logoTC{
+    margin: 2.5% 0%;
     text-align: center;
+    height: 10vh;
+}
+.logotcsec{
+    height: 100%;
 }
 
 .icone{
