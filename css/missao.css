@@ -9,3 +9,10 @@ body main section#missao {
     body main section#missao div div#missaoTexto{
         width: 60vh;
     }
+@media screen and (max-width: 900px) {
+    body main section#missao div img{
+        order: 2;
+        width: 60%;
+        margin: 0% auto;
+    }
+}

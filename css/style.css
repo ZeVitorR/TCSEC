@@ -1,3 +1,4 @@
+
 @font-face{
     font-family: GOTHAM;
     src: url(fontes/GOTHAM-MEDIUM.TTF)
@@ -8,75 +9,12 @@
     src: url(fontes/GOTHAM-MEDIUM.TTF)
 }
 
-@media screen and (max-width: 900px) {
-    .mobile,.MOBILETXT{
-        display: block;
-    }
-    body header{
-        background-color: #52658C;
-        width: 60%;
-        text-align: center;
-        padding: 4% 20% 2% 20%;
-    }
-    .logoMobile{
-        width: 90%;
-    }
-    .desktop{
-        display: none;
-    }
-    main{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-    body main div#form{
-        padding-left: 2%;
-    }
-    body main div#form h1{
-        font-family: GOTHAM,sans-serif;
-        font-size: 2rem;
-        color:#52658C
-    }
-    body main div#form label{
-        font-family: GOTHAM_MEDIUM,sans-serif;
-        font-size: 1rem;
-        color:#52658C;
-    }
-    body main div#form input,textarea{
-        width: 90%;
-        font-family: GOTHAM_MEDIUM,sans-serif;
-        font-size: 1rem;
-        color:#52658C;
-        border: 1px solid lightgray;
-    }
-    
-    body main div#form button{
-        background-color: #52658C;
-        color: white;
-        width: 100px;
-        height: 30px;
-    }
-    body main img#HomemContrato{
-        display: none;
-    }
-    .MOBILETXT{
-        width: 102%;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-    }
-}
-
-@media screen and (min-width: 901px) and (max-width: 1400px){
-    .mobile{
-        display: none;
-    }
-
-}
-
-@media screen and (min-width: 1401px){
-    .mobile{
-        display: none;
-    }
+body header{
+    background-color: #52658C;
+    width: 102%;
+    height: 80px;
+    justify-content: center;
+    margin: -1% 0% 0% -1%; 
 }
 
 .bold{
@@ -126,13 +64,7 @@ body{
     background-color: #d9f0d9;
 }
 
-body header{
-    background-color: #52658C;
-    width: 102%;
-    height: 80px;
-    justify-content: center;
-    margin: -1% 0% 0% -1%; 
-}
+
 body header div.desktop{
     display: flex;
     justify-content: space-around;
@@ -143,9 +75,8 @@ body header div.desktop img.logo{
     height: 60px;
 }
 
-body header div.desktop img.texto{
-    height: 60px;
-    margin: auto 0;
+body header div.desktop h1{
+    color: white;
 }
 
  
@@ -167,7 +98,7 @@ body header div.desktop img.texto{
 }
 
 
-body main h1{
+body h1{
     font-family: GOTHAM,sans-serif;
     font-size: 2rem;
     color:#52658C
@@ -209,3 +140,39 @@ body footer{
     display: flex;
     align-items: center ;
 }
+
+@media screen and (max-width: 900px) {
+    body header{
+        height: 30vh;
+        width: 102%;
+    }
+    body header div.desktop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 30vh;
+    }
+
+    body header div.desktop img.logo{
+        height: 50%;
+        padding-top: 5% ;
+    }
+
+    .container{
+        flex-direction: column;
+        width: 100%;
+    }
+    #logoTC{
+        height: 10vh;
+        order: 2;
+    }
+    .logotcsec{
+        height: 80%;
+    }
+    .dados{
+        width: 60%;
+        margin: auto;
+    }
+}
+
+
