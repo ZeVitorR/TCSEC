@@ -15,4 +15,7 @@ body main section#missao {
         width: 60%;
         margin: 0% auto;
     }
+    body main section#missao div div#missaoTexto{
+        width: 90%;
+    }
 }

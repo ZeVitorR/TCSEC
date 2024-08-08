@@ -13,7 +13,7 @@ body main section#sobre div#texto{
     height: 100%;
 }
 @media screen and (max-width: 900px) {
-    body main section#sobre div#imagem,body main section#sobre div#texto{
+    body main section#sobre div#imagem{
         width: 60vh;
     }
         body main section#sobre div#imagem img{
@@ -21,4 +21,7 @@ body main section#sobre div#texto{
             border-radius: 45%;
             margin: 0 2.5%;
         }
+    body main section#sobre div#texto{
+        width: 90%;
+    }
 }

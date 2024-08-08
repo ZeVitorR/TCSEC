@@ -37,3 +37,8 @@ body main div#form button:hover{
     background-color: #7d95c4;
     cursor: pointer;
 }
+@media screen and (max-width: 900px) {
+    body main div#form{
+        width: 100%;
+    }
+}
