@@ -26,6 +26,7 @@ body main section div ul li .textoV{
     }
     body main section#valores div h2{
         width:100%;
+        margin-left: -6%;
     }
     body main section div ul li.quadro{
         display: flex;
@@ -33,6 +34,6 @@ body main section div ul li .textoV{
         text-decoration: none;
         flex-direction: column;
         width:105%;
-        margin-left: -7%;
+        margin-left: -16%;
     }
 }
