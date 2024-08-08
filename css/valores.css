@@ -21,16 +21,18 @@ body main section div ul li .textoV{
     padding-right: 3%;
 }
 @media screen and (max-width:900px) {
+    .containerUl{
+        width: 100%;
+    }
     body main section#valores div h2{
-        width:90%;
-        margin: 2% auto;
+        width:100%;
     }
     body main section div ul li.quadro{
         display: flex;
         background-color: white;
         text-decoration: none;
         flex-direction: column;
-        width:100%;
-        margin: 2% auto;
+        width:105%;
+        margin-left: -7%;
     }
 }

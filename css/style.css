@@ -53,10 +53,7 @@ body main section#escolha div div.imagemp img{
     height: 100%;
     margin: 0 25%;
 }
-body main section#servicos div ul li.quadroServico img{
-    height: 10vh;
-    padding: 2%;
-}
+
 
 body{
     display: flex;
