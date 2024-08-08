@@ -23,10 +23,13 @@ body main section#servicos div ul li .textoServico{
 @media screen and (max-width: 900px) {
     body main section#servicos{
         width: 100%;
-        margin-left: -6%;
+    }
+    body main section#servicos h2,
+    body main section#servicos p{
+        margin-left: -7%;
     }
     .quadro2{
         width:100%;
-        margin-left: -8%;
+        margin-left: -17%;
     }
 }
