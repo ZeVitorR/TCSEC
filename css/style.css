@@ -47,7 +47,6 @@ body main section div{
 body main section#escolha div div.imagemp{
     height: 30vh;
     padding: auto;
-    
 }
 body main section#escolha div div.imagemp img{
     height: 100%;
@@ -173,4 +172,13 @@ body footer{
     }
 }
 
-
+@media screen and (max-width: 1400px){
+    body main section#escolha div div.imagemp{
+        height: 50vh;
+        padding: auto;
+    }
+    body main section#escolha div div.imagemp img{
+        height: 100%;
+        margin: 0 25%;
+    }
+}
