@@ -1,17 +1,15 @@
 body main section#secao1{
-    background-image: url(../imagens/topo_imagem.png );
-    background-position: right bottom;
+    background-image: url(../imagens/contrato.jpg);
     background-repeat: no-repeat;
     background-size: 100% ;
-}
 
+}
 body main section#secao1 div{
     width: 100%;
     height: 100%;
     padding: 0.1%;
-    background-color: #52658c6b
+    background-color: #1e24309a
 }
-
 
 body main section#secao1 div h1, body main section#secao1 div h2{
     text-align: center;
