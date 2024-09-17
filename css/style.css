@@ -177,6 +177,7 @@ body footer{
         height: 50vh;
     }
     body main section#escolha div div.imagemp img{
-        height: 100%;
+        width: auto;
+        height: auto;
     }
 }
