@@ -11,6 +11,8 @@ body main section#missao {
     }
 @media screen and (max-width: 900px) {
     body main section#missao div img{
+        width: auto;
+        height: auto;
         order: 2;
     }
     body main section#missao div div#missaoTexto{
