@@ -127,6 +127,19 @@ body footer{
     align-items: center ;
 }
 
+
+
+@media screen and (max-width: 1400px){
+    body main section#escolha div div.imagemp{
+        height: 50vh;
+        padding: auto;
+    }
+    body main section#escolha div div.imagemp img{
+        height: 100%;
+        margin: 0 25%;
+    }
+}
+
 @media screen and (max-width: 900px) {
     body main section#escolha div div.imagemp{
         height: 40vh;
@@ -178,16 +191,5 @@ body footer{
     footer{
         width: 102%;
         height: 102%;
-    }
-}
-
-@media screen and (max-width: 1400px){
-    body main section#escolha div div.imagemp{
-        height: 50vh;
-        padding: auto;
-    }
-    body main section#escolha div div.imagemp img{
-        height: 100%;
-        margin: 0 25%;
     }
 }
