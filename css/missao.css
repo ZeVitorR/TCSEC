@@ -12,7 +12,7 @@ body main section#missao {
 @media screen and (max-width: 900px) {
     body main section#missao div img{
         order: 2;
-        width: 53%;
+        width: 55%;
     }
     body main section#missao div div#missaoTexto{
         width: 90%;
