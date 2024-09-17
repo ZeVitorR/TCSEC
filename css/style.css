@@ -143,11 +143,11 @@ body footer{
 @media screen and (max-width: 900px) {
     body main section#escolha div div.imagemp{
         height: 40vh;
-        padding: 0%;
+        padding: 0 0 0 0;
     }
     body main section#escolha div div.imagemp img{
         height: 100%;
-        margin: 0%;
+        margin: 0 0 0 0;
     }
 
     body h1{
