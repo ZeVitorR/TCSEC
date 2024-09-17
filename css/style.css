@@ -175,7 +175,6 @@ body footer{
 @media screen and (max-width: 1400px){
     body main section#escolha div div.imagemp{
         height: 50vh;
-        padding: auto;
     }
     body main section#escolha div div.imagemp img{
         height: 100%;
